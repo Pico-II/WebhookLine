@@ -1,4 +1,4 @@
-// api/webhook.js
+// api/Webhook.js
 export default function handler(req, res) {
   if (req.method === "POST") {
     console.log(req.body); // LINEから送られてきたデータを確認

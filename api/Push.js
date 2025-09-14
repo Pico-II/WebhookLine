@@ -2,7 +2,7 @@
 export default async function handler(req, res) {
   if (req.method === "POST") {
     try {
-      const userId = "Ua75dbd3600023e3ab29c81db2cfebceb"; // 誰に送るか指定
+      const userId = "Uc1bdc62edd92f9890ca897aff081d875"; // 誰に送るか指定
 
       const message = {
         to: userId,

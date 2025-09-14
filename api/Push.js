@@ -2,7 +2,7 @@
 export default async function handler(req, res) {
   if (req.method === "POST") {
     try {
-      const userId = "ここにWebhookで得たユーザーID"; // 誰に送るか指定
+      const userId = "Ua75dbd3600023e3ab29c81db2cfebceb"; // 誰に送るか指定
 
       const message = {
         to: userId,
